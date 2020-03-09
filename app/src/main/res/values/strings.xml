@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Filtre à COVID-19</string>
+    <string name="disabled">Disabled</string>
+    <string name="actived">Actived</string>
+    <string name="premium_snackbar_text">Consider the Premium version</string>
+    <string name="close_snackbar_text">X</string>
+</resources>
