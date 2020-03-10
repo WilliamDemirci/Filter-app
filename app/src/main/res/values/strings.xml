@@ -4,4 +4,6 @@
     <string name="actived">Actived</string>
     <string name="premium_snackbar_text">Consider the Premium version</string>
     <string name="close_snackbar_text">X</string>
+    <string name="internet_connection_error_snackbar_text">No Internet connection</string>
+    <string name="location_error_snackbar_text">The application requires access to the position of the device</string>
 </resources>

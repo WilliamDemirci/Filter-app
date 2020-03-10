@@ -18,4 +18,31 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ProgressBar
+        android:id="@+id/progressBarConnection"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/colorPrimary"
+        android:translationZ="2dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/filterButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBarDisconnection"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/colorAccent"
+        android:translationZ="2dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/filterButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/filterButton" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
